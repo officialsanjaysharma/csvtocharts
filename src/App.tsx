@@ -12,7 +12,7 @@ import _ from 'lodash'
 import AreaChart from './charts/area-chart'
 import BarChart from './charts/bar-chart'
 import LineChart from './charts/line-chart'
-import { CSVLink, CSVDownload } from "react-csv"
+import { CSVLink} from "react-csv"
 
 import { Button } from '@material-ui/core'
 
@@ -41,10 +41,10 @@ class App extends Component {
     let files = e.target.files;
     let reader = new FileReader();
     if (files) reader.readAsText(files[0])
-    reader.onload = (e: any) => {
+     reader.onload = (e: any) => {
       let data = e.target.result.split('\n')
       let tempArray: any = this.state.data
-      data.map((fileData: any, index: any) => {
+       data.map((fileData: any, index: any) => {
         let obj: any = {}
         let cellData = fileData.split(',')
         if (index === 0) {
