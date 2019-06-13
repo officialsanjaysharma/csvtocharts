@@ -134,7 +134,7 @@ class App extends Component {
               </label>
               <Button variant="outlined" component="span" style={{ padding: 10 }}>
                 <CSVLink
-                  style={{ textDecoration: "none" }}
+                  style={{ textDecoration: "none",color:"black" }}
                   filename="sample.csv"
                   data={csvData}>
                   Download Sample CSV
