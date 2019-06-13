@@ -1,4 +1,4 @@
-##CSV TO CHARTS
+## `CSV TO CHARTS`
 Steps to follow:
 1.Clone the project.
 2.Install npm package by entering yarn or npm install in commandline.
