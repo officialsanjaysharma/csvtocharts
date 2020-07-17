@@ -13,7 +13,7 @@
     "@types/react-dom": "16.8.4",
     "@types/recharts": "^1.1.16",
     "csv-parser": "^2.3.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "react": "^16.8.6",
     "react-csv": "^1.1.1",
     "react-dom": "^16.8.6",
